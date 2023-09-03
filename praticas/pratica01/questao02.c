@@ -1,27 +1,30 @@
-Faça um programa em C que calcule a area de um triangulo. Considere a base e altura numeros inteiros maiores que 0;
 
 
-#include <studio.h>
+#include <stdio.h>
 
-int main() }
-int base, altura, area;
-unsigned int (>0);
+int main() {
+    float base, altura, area;
 
-printf("base do triangulo");
- scanf("%f, %base") [6];
-  
-printf("altura do triangulo");
- scanf("%f, &altura") [3];
+    // Solicita ao usuário que insira a base e a altura do triângulo
+    printf("Digite o valor da base do triângulo: ");
+    scanf("%f", &base);
 
-printf("a area do triangulo e \n, area")
+    printf("Digite o valor da altura do triângulo: ");
+    scanf("%f", &altura);
+
+    // Calcula a área do triângulo
+    area = (base * altura) / 2.0;
+
+    // Exibe o resultado
+    printf("A área do triângulo é: %.2f\n", area);
+
+    return 0;
+
 
 
    
 
 
-
-return 0;
-
-} 
+ 
 
 
