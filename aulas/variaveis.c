@@ -5,7 +5,7 @@ int main() {
  char caracter = 0; // ou '\0' '\n', \'t' ; // 'a', 'b', 'c', -128 a 127 - 1 byte
 
   caracter = 'a';
-  caracter = 'b';
+  caracter  = 'b';
   
 
  unsigned char caracter_sem_sinal; // 0 a 255
