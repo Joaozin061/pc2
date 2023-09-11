@@ -10,7 +10,7 @@ int main() {
 
   // b² - 4ac
 
-  double delta = pow(coeficiente_b, 2) -4 * coeficiente_a * coeficiente_b * coeficiente_c;
+double delta = pow(coeficiente_b, 2) -4 * coeficiente_a * coeficiente_b * coeficiente_c;
 
   // x1 = -b + raiz(delta) / 2a
 
