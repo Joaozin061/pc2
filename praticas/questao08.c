@@ -8,6 +8,7 @@ int main() {
   int valor_da_distancia = 100;
   int valor_do_angulo = 45 * 3.14 / 180;
   double sin(45 * 3.14 / 180);
+  double final = valor_altura
   
   double altura = (valor_distancia * (sin(valor_do_angulo) = valor_altura / valor_distancia);
 
