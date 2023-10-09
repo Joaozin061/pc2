@@ -10,9 +10,9 @@ int main() {
   if (tecla >=48 && tecla <=57){
     printf("voce pressionou um digito.\n");
   } else if ((tecla>=65 && tecla <=90) || (tecla>=97 && tecla<= 122)) {  
-    printf("voce pressionou uma letra.\n");
+    printf("Você pressionou uma letra.\n");
   } else { 
-    printf("voce pressionou um caracter especial.\n");
+    printf("Você pressionou um caracter especial.\n");
   }
   
   // switch(tecla) {
