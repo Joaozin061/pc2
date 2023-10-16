@@ -7,18 +7,7 @@ int main() {
   printf("entre com uma note entre 0 e 5:");
   deu_certo = scanf("%i", &nota);
   if (deu_certo) {  
-    if (nota == 1) {
-    printf("ruim\n");
-    } else if (nota == 2) {
-    printf("insuficiente\n");
-    } else if(nota == 3) {
-    printf("suficiente\n");
-    } else if (nota == 4) {
-    printf("bom\n");
-    } else if (nota == 5) {
-    printf("otimo\n");
-    } else {
-    printf("nota invalida\n");
+       
 
       switch(nota) {
         case 1: printf("ruim\n"); break;
