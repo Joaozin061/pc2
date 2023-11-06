@@ -27,7 +27,7 @@ int main() {
     printf("%i x %i = %i\n", numero, i+1, numero * (i+1)); 
     i++;
   } while(i<10);
-} 
+
 
 
 
