@@ -1,8 +1,9 @@
-#include <stdio.h>
+   #include <stdio.h>
 
-int main() {
+   int main() {
+     
     int decimal, resto, i = 1;
-    int binario[32]; // Armazena o número binário com no máximo 32 bits
+    int binario[32]; // Armazena o número binário com no máximo 32 bits // 
 
     printf("Digite um número decimal: ");
     scanf("%d", &decimal);
@@ -13,7 +14,8 @@ int main() {
     }
 
     if (decimal < 0) {
-        printf("Este programa lida apenas com números inteiros positivos.\n");
+        printf("Este programa lida apenas com números 
+    inteiros positivos.\n");
         return 1;
     }
 
@@ -30,7 +32,7 @@ int main() {
     }
     
    
-printf("\n");
+    printf("\n");
 
-  return 0;
-}
+    return 0;
+  }
